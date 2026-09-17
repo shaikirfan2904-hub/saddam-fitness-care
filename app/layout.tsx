@@ -16,6 +16,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://saddam-fitness-care.vercel.app"),
+  verification: {
+    google: "ArCUMtMZUAexNmjt2HuPG99nd_JkTw1fgE-_q0klyq4",
+  },
   title: "Saddam Fitness Care | Gym in Kavali",
   description:
     "Saddam Fitness Care is a unisex A/C gym in Kavali, Andhra Pradesh, offering strength training, cardio fitness, weight training, personal training, and diet & nutrition.",
@@ -48,21 +51,21 @@ export const metadata: Metadata = {
     "fitness center Nellore district",
   ],
   openGraph: {
-  title: "Saddam Fitness Care | Gym in Kavali",
-  description:
-    "Saddam Fitness Care — a unisex A/C gym in Kavali offering strength training, cardio fitness, weight training, personal training, and diet & nutrition.",
-  type: "website",
-  locale: "en_IN",
-  siteName: "Saddam Fitness Care",
-  images: [
-    {
-      url: "/logo/logo.png",
-      width: 512,
-      height: 512,
-      alt: "Saddam Fitness Care",
-    },
-  ],
-},
+    title: "Saddam Fitness Care | Gym in Kavali",
+    description:
+      "Saddam Fitness Care — a unisex A/C gym in Kavali offering strength training, cardio fitness, weight training, personal training, and diet & nutrition.",
+    type: "website",
+    locale: "en_IN",
+    siteName: "Saddam Fitness Care",
+    images: [
+      {
+        url: "/logo/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Saddam Fitness Care",
+      },
+    ],
+  },
 };
 
 const structuredData = {
