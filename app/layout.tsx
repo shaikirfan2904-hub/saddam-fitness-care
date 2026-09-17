@@ -15,6 +15,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://saddam-fitness-care.vercel.app"),
   title: "Saddam Fitness Care | Gym in Kavali",
   description:
     "Saddam Fitness Care is a unisex A/C gym in Kavali, Andhra Pradesh, offering strength training, cardio fitness, weight training, personal training, and diet & nutrition.",
