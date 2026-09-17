@@ -231,16 +231,14 @@ export default function Footer() {
             BOTTOM BAR
         ===================================================== */}
 
-        <div className="footer-reveal flex flex-col gap-4 py-6 sm:flex-row sm:items-center sm:justify-between">
-
-          <p className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/30">
-            © {new Date().getFullYear()} Saddam Fitness Care. All Rights Reserved.
+        <div className="border-t border-white/10 py-6 text-center">
+          <p className="text-xs text-white/40">
+            © 2026 Saddam Fitness Care.   All Rights Reserved.
           </p>
 
-          <p className="font-mono text-[9px] uppercase tracking-[0.2em] text-white/30">
-            Built For Strength.
+          <p className="text-xs text-white/40">
+            Designed and Developed by " i "
           </p>
-
         </div>
 
       </div>

@@ -425,9 +425,7 @@ export default function About() {
 
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
-                <span className="absolute bottom-4 left-4 font-mono text-[10px] tracking-[0.2em] text-white">
-                  01
-                </span>
+                
 
               </button>
 
@@ -448,9 +446,7 @@ export default function About() {
 
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
-                <span className="absolute bottom-4 left-4 font-mono text-[10px] tracking-[0.2em] text-white">
-                  02
-                </span>
+                
 
               </button>
 
@@ -471,9 +467,7 @@ export default function About() {
 
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
-                <span className="absolute bottom-4 left-4 font-mono text-[10px] tracking-[0.2em] text-white">
-                  03
-                </span>
+                
 
               </button>
 
@@ -494,9 +488,7 @@ export default function About() {
 
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
-                <span className="absolute bottom-4 left-4 font-mono text-[10px] tracking-[0.2em] text-white">
-                  04
-                </span>
+                
 
               </button>
 
