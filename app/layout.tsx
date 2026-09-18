@@ -75,6 +75,14 @@ const structuredData = {
   description:
     "Saddam Fitness Care is a unisex A/C gym in Kavali, Andhra Pradesh, offering strength training, cardio fitness, weight training, personal training, and diet & nutrition.",
   telephone: "+91 99488 66755",
+  url: "https://saddam-fitness-care.vercel.app",
+  logo: "https://saddam-fitness-care.vercel.app/logo/logo.png",
+  image: "https://saddam-fitness-care.vercel.app/logo/logo.png",
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 14.913319,
+    longitude: 79.993465,
+  },
   address: {
     "@type": "PostalAddress",
     streetAddress: "Karimulla Electronics, c/o, Thummalapenta Rd, Vaddi Palem",
