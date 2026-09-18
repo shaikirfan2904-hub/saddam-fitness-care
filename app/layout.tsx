@@ -86,6 +86,8 @@ const structuredData = {
     latitude: 14.913319,
     longitude: 79.993465,
   },
+    hasMap:
+    "https://www.google.com/maps/search/?api=1&query=14.913319,79.993465",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Karimulla Electronics, c/o, Thummalapenta Rd, Vaddi Palem",
