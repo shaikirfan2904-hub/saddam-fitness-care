@@ -165,7 +165,6 @@ useLayoutEffect(() => {
           {/* Description */}
           <p className="hero-description opacity-0 mt-8 max-w-xl text-sm leading-7 text-[#9AA69F] sm:text-base">
             Train harder. Build stronger. Become the best version of yourself at Saddam Fitness Care, a unisex A/C gym in Kavali.
-            at Saddam Fitness Care.
           </p>
 
           {/* CTA buttons */}
