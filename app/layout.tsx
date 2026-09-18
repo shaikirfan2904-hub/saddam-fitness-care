@@ -16,6 +16,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://saddam-fitness-care.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   verification: {
     google: "ArCUMtMZUAexNmjt2HuPG99nd_JkTw1fgE-_q0klyq4",
   },
