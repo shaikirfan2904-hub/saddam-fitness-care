@@ -323,7 +323,7 @@ export default function Facilities() {
               GYM PHOTO GALLERY — 2 × 2
           ===================================================== */}
 
-          <div className="facilities-gallery mt-20 grid grid-cols-2 gap-3 sm:gap-5">
+          <div className="facilities-gallery mt-8 grid grid-cols-2 gap-3 sm:gap-5">
 
             {galleryPhotos.map((photo, index) => (
               <button

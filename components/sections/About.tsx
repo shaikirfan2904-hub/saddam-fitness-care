@@ -253,7 +253,7 @@ export default function About() {
               FEATURES — 2 × 2
           ===================================================== */}
 
-          <div className="mt-20 grid grid-cols-2 border-t border-white/10">
+          <div className="mt-8 grid grid-cols-2 border-t border-white/10">
 
             {/* =================================================
                 01 — UNISEX GYM
