@@ -401,16 +401,6 @@ export default function About() {
               ABOUT HEADER
           ===================================================== */}
 
-          <div className="mb-12 flex items-center gap-3">
-
-            <span className="h-px w-10 bg-lime-500" />
-
-            <span className="font-mono text-[14px] uppercase tracking-[0.3em] text-lime-500">
-              About SFC
-            </span>
-
-          </div>
-
           
 
           {/* =====================================================
