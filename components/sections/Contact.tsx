@@ -105,7 +105,7 @@ export default function Contact() {
         <div className="contact-header">
 
           <div className="inline-flex items-center border border-lime-500/40 bg-[#0B100D] px-4 py-2">
-            <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-lime-500">
+            <span className="font-mono text-[14px] uppercase tracking-[0.25em] text-lime-500">
               Contact SFC
             </span>
           </div>

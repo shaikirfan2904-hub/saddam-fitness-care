@@ -111,7 +111,7 @@ export default function Pricing() {
           {/* Simple boxed tag */}
 
           <div className="inline-flex items-center border border-lime-500/40 bg-[#060907] px-4 py-2">
-            <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-lime-500">
+            <span className="font-mono text-[14px] uppercase tracking-[0.25em] text-lime-500">
               Membership Plans
             </span>
           </div>
@@ -145,11 +145,7 @@ export default function Pricing() {
           {plans.map((plan) => (
             <div
               key={plan.number}
-              className={`pricing-card group relative overflow-hidden rounded-xl border bg-[#060907] transition-all duration-500 ${
-                plan.featured
-                  ? "border-lime-500/60"
-                  : "border-white/10 hover:border-lime-500/40"
-              }`}
+              className="pricing-card group relative overflow-hidden rounded-xl border border-white/10 bg-[#060907] transition-all duration-500 hover:border-lime-500/40"
             >
 
               {/* Featured label */}
@@ -200,11 +196,7 @@ export default function Pricing() {
 
                 {/* Divider */}
 
-                <div className="my-7 h-px bg-white/10" />
-
-                <p className="text-xs leading-6 text-[#7E8B83]">
-                  Gym membership at Saddam Fitness Care.
-                </p>
+               
 
               </div>
 

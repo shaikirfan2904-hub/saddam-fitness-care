@@ -304,31 +304,16 @@ export default function Facilities() {
             <div className="flex items-center gap-3">
               <span className="h-px w-10 bg-lime-500" />
 
-              <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-lime-500">
+              <span className="font-mono text-[15px] uppercase tracking-[0.3em] text-lime-500">
                 Inside SFC
               </span>
             </div>
 
             <div className="mt-8 grid gap-8 lg:grid-cols-[1.5fr_0.5fr] lg:items-end">
 
-              <h2 className="font-display text-[clamp(3.5rem,8vw,7rem)] font-black uppercase leading-[0.82] tracking-[-0.02em] text-white">
-                Built To
-                <br />
-                <span className="text-lime-500">
-                  Train Hard.
-                </span>
-                <br />
-                Train
-                <br />
-                <span className="text-white/35">
-                  Comfortably.
-                </span>
-              </h2>
+              
 
-              <p className="max-w-sm text-sm leading-7 text-[#7E8B83] lg:pb-2">
-                Take a look inside Saddam Fitness Care and experience the
-                environment where your training happens.
-              </p>
+              
 
             </div>
 

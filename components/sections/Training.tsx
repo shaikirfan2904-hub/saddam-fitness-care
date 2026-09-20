@@ -131,10 +131,7 @@ export default function Training() {
               </span>
             </h2>
 
-            <p className="max-w-sm text-sm leading-7 text-[#7E8B83] lg:pb-2">
-              Every workout has a purpose. Choose your focus, put in the work
-              and keep moving towards your strongest self.
-            </p>
+            
 
           </div>
 

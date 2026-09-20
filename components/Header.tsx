@@ -57,6 +57,20 @@ export default function Header() {
             <span className="absolute bottom-0 left-0 h-px w-0 bg-lime-500 transition-all duration-300 group-hover:w-full" />
           </a>
 
+
+        {/* Gym Tour */}
+
+          <a
+            href="#facilities"
+            className="group relative py-2 text-xs font-semibold uppercase tracking-widest text-white/70 transition-colors hover:text-lime-500"
+          >
+            Gym Tour
+
+            <span className="absolute bottom-0 left-0 h-px w-0 bg-lime-500 transition-all duration-300 group-hover:w-full" />
+          </a>
+
+
+
           {/* Supplements */}
 
           <a
@@ -64,6 +78,18 @@ export default function Header() {
             className="group relative py-2 text-xs font-semibold uppercase tracking-widest text-white/70 transition-colors hover:text-lime-500"
           >
             Supplements
+
+            <span className="absolute bottom-0 left-0 h-px w-0 bg-lime-500 transition-all duration-300 group-hover:w-full" />
+          </a>
+
+
+          {/* Membership */}
+
+          <a
+            href="#pricing"
+            className="group relative py-2 text-xs font-semibold uppercase tracking-widest text-white/70 transition-colors hover:text-lime-500"
+          >
+            Membership
 
             <span className="absolute bottom-0 left-0 h-px w-0 bg-lime-500 transition-all duration-300 group-hover:w-full" />
           </a>
@@ -141,12 +167,32 @@ export default function Header() {
             Training
           </a>
 
+
+
+          <a
+            href="#facilities"
+            onClick={closeMenu}
+            className="border-b border-white/10 py-4 text-sm font-semibold uppercase tracking-widest text-white/80 transition-colors hover:text-lime-500"
+          >
+            Gym Tour
+          </a>
+
           <a
             href="#supplements"
             onClick={closeMenu}
             className="border-b border-white/10 py-4 text-sm font-semibold uppercase tracking-widest text-white/80 transition-colors hover:text-lime-500"
           >
             Supplements
+          </a>
+
+
+
+          <a
+            href="#pricing"
+            onClick={closeMenu}
+            className="border-b border-white/10 py-4 text-sm font-semibold uppercase tracking-widest text-white/80 transition-colors hover:text-lime-500"
+          >
+            Membership
           </a>
 
           <a

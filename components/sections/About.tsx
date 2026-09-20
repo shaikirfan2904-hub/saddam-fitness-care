@@ -241,37 +241,13 @@ export default function About() {
 
             <span className="h-px w-10 bg-lime-500" />
 
-            <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-lime-500">
+            <span className="font-mono text-[14px] uppercase tracking-[0.3em] text-lime-500">
               About SFC
             </span>
 
           </div>
 
-          {/* =====================================================
-              MAIN STATEMENT
-          ===================================================== */}
-
-          <div>
-
-            <h2 className="font-display text-[clamp(3.5rem,8vw,7rem)] font-black uppercase leading-[0.85] tracking-[-0.02em] text-white">
-              Built For
-              <br />
-
-              <span className="text-lime-500">
-                Strength.
-              </span>
-
-              <br />
-
-              Built For
-              <br />
-
-              <span className="text-white/40">
-                You.
-              </span>
-            </h2>
-
-          </div>
+          
 
           {/* =====================================================
               FEATURES — 2 × 2
