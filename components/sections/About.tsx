@@ -233,109 +233,6 @@ export default function About() {
 
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
 
-          {/* =====================================================
-              ABOUT HEADER
-          ===================================================== */}
-
-          <div className="mb-12 flex items-center gap-3">
-
-            <span className="h-px w-10 bg-lime-500" />
-
-            <span className="font-mono text-[14px] uppercase tracking-[0.3em] text-lime-500">
-              About SFC
-            </span>
-
-          </div>
-
-          
-
-          {/* =====================================================
-              FEATURES — 2 × 2
-          ===================================================== */}
-
-          <div className="mt-8 grid grid-cols-2 border-t border-white/10">
-
-            {/* =================================================
-                01 — UNISEX GYM
-            ================================================= */}
-
-            <div className="border-b border-r border-white/10 py-8 pr-5 sm:px-6 sm:py-10 lg:first:pl-0">
-
-              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
-                01
-              </span>
-
-              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
-                Unisex Gym
-              </h3>
-
-              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
-                A welcoming training environment for everyone.
-              </p>
-
-            </div>
-
-            {/* =================================================
-                02 — A/C FACILITY
-            ================================================= */}
-
-            <div className="border-b border-white/10 py-8 pl-5 sm:px-6 sm:py-10">
-
-              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
-                02
-              </span>
-
-              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
-                A/C Facility
-              </h3>
-
-              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
-                Train comfortably throughout your workout.
-              </p>
-
-            </div>
-
-            {/* =================================================
-                03 — FULL EQUIPMENT
-            ================================================= */}
-
-            <div className="border-r border-white/10 py-8 pr-5 sm:px-6 sm:py-10 lg:pl-0">
-
-              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
-                03
-              </span>
-
-              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
-                Full Equipment
-              </h3>
-
-              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
-                Equipment available for all major muscle groups.
-              </p>
-
-            </div>
-
-            {/* =================================================
-                04 — SPACIOUS
-            ================================================= */}
-
-            <div className="py-8 pl-5 sm:px-6 sm:py-10">
-
-              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
-                04
-              </span>
-
-              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
-                Spacious
-              </h3>
-
-              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
-                Plenty of room to train without feeling crowded.
-              </p>
-
-            </div>
-
-          </div>
 
           
 
@@ -343,7 +240,7 @@ export default function About() {
               FOUNDER & TRAINER
           ===================================================== */}
 
-          <div className="founder-section mt-24">
+          <div className="founder-section ">
 
             {/* Heading */}
 
@@ -499,6 +396,110 @@ export default function About() {
               <div className="mx-auto mt-6 h-px w-16 bg-lime-500/50" />
 
             </div>
+            
+          {/* =====================================================
+              ABOUT HEADER
+          ===================================================== */}
+
+          <div className="mb-12 flex items-center gap-3">
+
+            <span className="h-px w-10 bg-lime-500" />
+
+            <span className="font-mono text-[14px] uppercase tracking-[0.3em] text-lime-500">
+              About SFC
+            </span>
+
+          </div>
+
+          
+
+          {/* =====================================================
+              FEATURES — 2 × 2
+          ===================================================== */}
+
+          <div className="mt-8 grid grid-cols-2 border-t border-white/10">
+
+            {/* =================================================
+                01 — UNISEX GYM
+            ================================================= */}
+
+            <div className="border-b border-r border-white/10 py-8 pr-5 sm:px-6 sm:py-10 lg:first:pl-0">
+
+              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
+                01
+              </span>
+
+              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
+                Unisex Gym
+              </h3>
+
+              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
+                A welcoming training environment for everyone.
+              </p>
+
+            </div>
+
+            {/* =================================================
+                02 — A/C FACILITY
+            ================================================= */}
+
+            <div className="border-b border-white/10 py-8 pl-5 sm:px-6 sm:py-10">
+
+              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
+                02
+              </span>
+
+              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
+                A/C Facility
+              </h3>
+
+              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
+                Train comfortably throughout your workout.
+              </p>
+
+            </div>
+
+            {/* =================================================
+                03 — FULL EQUIPMENT
+            ================================================= */}
+
+            <div className="border-r border-white/10 py-8 pr-5 sm:px-6 sm:py-10 lg:pl-0">
+
+              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
+                03
+              </span>
+
+              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
+                Full Equipment
+              </h3>
+
+              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
+                Equipment available for all major muscle groups.
+              </p>
+
+            </div>
+
+            {/* =================================================
+                04 — SPACIOUS
+            ================================================= */}
+
+            <div className="py-8 pl-5 sm:px-6 sm:py-10">
+
+              <span className="font-mono text-[10px] tracking-[0.2em] text-lime-500">
+                04
+              </span>
+
+              <h3 className="mt-5 font-display text-2xl font-bold uppercase text-white">
+                Spacious
+              </h3>
+
+              <p className="mt-3 max-w-xs text-sm leading-6 text-[#7E8B83]">
+                Plenty of room to train without feeling crowded.
+              </p>
+
+            </div>
+
+          </div>
 
           </div>
 
