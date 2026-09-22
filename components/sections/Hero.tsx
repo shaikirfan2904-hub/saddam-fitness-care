@@ -189,7 +189,7 @@ useLayoutEffect(() => {
           <div className="hero-stats opacity-0 mt-16 flex flex-wrap gap-x-10 gap-y-6 border-t border-white/10 pt-6">
             <div>
               <p className="font-display text-3xl font-bold text-white">
-                10+
+                20+
               </p>
               <p className="mt-1 text-[10px] uppercase tracking-[0.2em] text-[#7E8B83]">
                 Years Experience
