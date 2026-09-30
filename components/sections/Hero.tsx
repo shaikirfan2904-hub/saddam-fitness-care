@@ -5,103 +5,103 @@ import gsap from "gsap";
 interface HeroProps {
   introComplete: boolean;
 }
-export default function Hero({ introComplete }: HeroProps){
+export default function Hero({ introComplete }: HeroProps) {
   const heroRef = useRef<HTMLElement>(null);
 
-useLayoutEffect(() => {
-  if (!introComplete) return;
+  useLayoutEffect(() => {
+    if (!introComplete) return;
 
-  const ctx = gsap.context(() => {
-    const timeline = gsap.timeline();
+    const ctx = gsap.context(() => {
+      const timeline = gsap.timeline();
 
-    timeline
-      .fromTo(
-        ".hero-eyebrow",
-        {
-          y: 20,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.45,
-          ease: "power3.out",
-        },
-      )
-      .fromTo(
-        ".hero-title",
-        {
-          y: 60,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.75,
-          ease: "power4.out",
-        },
-        "-=0.2",
-      )
-      .fromTo(
-        ".hero-description",
-        {
-          y: 25,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.55,
-          ease: "power3.out",
-        },
-        "-=0.35",
-      )
-      .fromTo(
-        ".hero-actions",
-        {
-          y: 20,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.5,
-          ease: "power3.out",
-        },
-        "-=0.25",
-      )
-      .fromTo(
-        ".hero-stats",
-        {
-          y: 20,
-          opacity: 0,
-        },
-        {
-          y: 0,
-          opacity: 1,
-          duration: 0.5,
-          ease: "power3.out",
-        },
-        "-=0.25",
-      )
-      .fromTo(
-        ".hero-plate",
-        {
-          scale: 0.8,
-          opacity: 0,
-        },
-        {
-          scale: 1,
-          opacity: 1,
-          duration: 1.1,
-          ease: "power3.out",
-        },
-        "-=0.8",
-      );
-  }, heroRef);
+      timeline
+        .fromTo(
+          ".hero-eyebrow",
+          {
+            y: 20,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.45,
+            ease: "power3.out",
+          },
+        )
+        .fromTo(
+          ".hero-title",
+          {
+            y: 60,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.75,
+            ease: "power4.out",
+          },
+          "-=0.2",
+        )
+        .fromTo(
+          ".hero-description",
+          {
+            y: 25,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.55,
+            ease: "power3.out",
+          },
+          "-=0.35",
+        )
+        .fromTo(
+          ".hero-actions",
+          {
+            y: 20,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.5,
+            ease: "power3.out",
+          },
+          "-=0.25",
+        )
+        .fromTo(
+          ".hero-stats",
+          {
+            y: 20,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 1,
+            duration: 0.5,
+            ease: "power3.out",
+          },
+          "-=0.25",
+        )
+        .fromTo(
+          ".hero-plate",
+          {
+            scale: 0.8,
+            opacity: 0,
+          },
+          {
+            scale: 1,
+            opacity: 1,
+            duration: 1.1,
+            ease: "power3.out",
+          },
+          "-=0.8",
+        );
+    }, heroRef);
 
-  return () => ctx.revert();
-}, [introComplete]);
+    return () => ctx.revert();
+  }, [introComplete]);
 
   return (
     <section
@@ -178,7 +178,9 @@ useLayoutEffect(() => {
             </a>
 
             <a
-              href="#contact"
+              href="https://wa.me/919948866755"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center border border-white/15 px-7 py-4 text-xs font-bold uppercase tracking-[0.2em] text-white transition-all duration-300 hover:border-lime-500 hover:text-lime-500"
             >
               Get In Touch
@@ -186,7 +188,7 @@ useLayoutEffect(() => {
           </div>
 
           {/* Bottom stats */}
-          <div className="hero-stats opacity-0 mt-16 flex flex-wrap gap-x-10 gap-y-6 border-t border-white/10 pt-6">
+          <div className="hero-stats opacity-0 mt-16 grid grid-cols-3 gap-4 border-t border-white/10 pt-6">
             <div>
               <p className="font-display text-3xl font-bold text-white">
                 20+
